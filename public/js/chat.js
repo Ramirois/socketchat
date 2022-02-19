@@ -11,7 +11,7 @@ const btnSalir = document.querySelector('#btnSalir')
 
 const url = (window.location.hostname.includes('localhost')) ?
     'http://localhost:8080/api/auth/' :
-    'https://restserver-node-ivan.herokuapp.com/api/auth/'
+    'https://socket-chat-node-ivan.herokuapp.com/api/auth/'
 
 
 const validarJWT = async() => {
