@@ -2,7 +2,7 @@ const miFomulario = document.querySelector('form')
 
 const url = (window.location.hostname.includes('localhost')) ?
     'http://localhost:8080/api/auth/' :
-    'https://socket-chat-node-ivan.herokuapp.com/api/auth/'
+    'https://socketchatpui.herokuapp.com/api/auth/'
 
 miFomulario.addEventListener('submit', (ev) => {
     ev.preventDefault();
